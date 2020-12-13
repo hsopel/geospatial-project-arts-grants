@@ -1,7 +1,9 @@
 # Introduction to Geospatial Analysis in Python
-Using some the techniques taught in these notebooks, I created a map to show the impact that grants from the Metro Nashville Arts Commission have on schools in Davidson County. I decided to focus specifically on grants given by the Nashville Children Theatre (NCT). NCT uses the grant money to make a class field trip to attend a production affordable for all students. Having worked on a show at NCT, I've seen first-hand how meaningful this experience is to the students.
+Using some the techniques taught in these notebooks, I created a map to show the impact that grants from the Metro Nashville Arts Commission have on schools in Davidson County. I decided to focus specifically on grants given by the Nashville Children's Theatre (NCT). NCT uses the grant money to make a class field trip to attend a production affordable for all students. Having worked on a show at NCT, I've seen first-hand how meaningful this experience is to the students.
 
 I used geopandas, spatial joins, and folium to create this map with school district boundaries and markers for each school that received a grant, color coded by the number of students impacted. I used layer control to make it possible for the user to focus on specific school districts. Interactive map can be found in the notebooks folder --> geopandas_project.ipynb
+
+## Nashville Children's Theatre - Fiscal Year 2019
 
 ![Map](/maps/arts_grants_map.png)
 
